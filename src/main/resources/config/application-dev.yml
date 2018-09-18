@@ -48,9 +48,9 @@ spring:
                     destination: topic-jhipster
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:mysql://localhost:3306/infinityshoppricing?useUnicode=true&characterEncoding=utf8&useSSL=false
-        username: root
-        password:
+        url: jdbc:mysql://localhost:3306/infinityshoppric?useUnicode=true&characterEncoding=utf8&useSSL=false
+        username: infinityshoppric
+        password: infinityshoppricing
         hikari:
             data-source-properties:
                 cachePrepStmts: true
